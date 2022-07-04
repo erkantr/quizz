@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_home"
+                android:title="Ana Sayfa" />
+        </group>
+
+        <item android:title="Kullanıcı">
+
+            <menu>
+
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/user_profile"
+                        android:icon="@drawable/ic_person_black_24dp"
+                        android:title="Profil" />
+
+
+                    <item
+                        android:id="@+id/logout"
+                        android:icon="@drawable/ic_exit_to_app"
+                        android:title="Çıkış Yap" />
+
+                </group>
+
+            </menu>
+        </item>
+
+        <item android:title="Daha Fazla">
+
+            <menu>
+
+                <group android:checkableBehavior="none">
+
+                    <item
+                        android:id="@+id/about"
+                        android:icon="@drawable/ic_gamepad"
+                        android:title="Hakkımızda" />
+
+                </group>
+
+            </menu>
+        </item>
+
+    </menu>
